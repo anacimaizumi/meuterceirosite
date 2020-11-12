@@ -96,47 +96,46 @@ body {
     float: left;
     width: 8.333%;
     background-color: #F75940;
-    height: 40%;
+    height: auto;
 } 
 
 .caixa2 {
     float: left;
     width: 16.666%;
     background-color: rgb(221, 153, 114);
-    height: 50%;
+    height: auto;
 }
 
 .caixa3 {
     float: left;
     width: 25%;
     background-color: rgb(221, 187, 114);
-    height: 50%;
+    height: auto;
 }
 
 .caixa4 {
     float: left;
     width: 33.333%;
     background-color: rgb(221, 210, 114);
-    height: 5%;
+    height: auto;
+    text-align: center;
 }
 
 .caixa4 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    max-width: 300px;
 }
 
 .caixa5 {
     float: left;
     width: 41.666%;
     background-color: rgb(205, 221, 114);
-    height: 50%;
+    height: auto;
 }
 .caixa6 {
     float: left;
     width: 50%;
-    
-    height: 15%;
+    background-color: #FFBFC7;
+    height: auto;
 }
 
 .caixa6 h2 {
@@ -158,42 +157,46 @@ body {
     float: left;
     width: 58.333%;
     background-color: rgb(144, 221, 114);
-    height: 50%;
+    height: auto;
 }
 .caixa8 { 
     float: left;
     width: 66.666%;
     background-color: rgb(114, 221, 137);
-    height: 50%;
+    height: auto;
 }
 
 .caixa9 {
     float: left;
     width: 75%;
     background-color: rgb(114, 221, 194);
-    height: 50%;
+    height: auto;
 }
 
 .caixa10 {
     float: left;
     width: 83.333%;
     background-color: rgb(114, 178, 221);
-    height: 50%;
+    height: auto;
 }
 
 .caixa11 {
     float: left;
     width: 91.666%;
     background-color: rgb(169, 114, 221);
-    height: 50%;
+    height: auto;
 }
 .caixa12 {
     float: left;
     width: 100%;
     background-color: rgb(212, 114, 221);
-    height: 50%;
+    height: auto;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 
 .ouca {
     border-top: solid;
@@ -208,66 +211,18 @@ body {
     margin-right: 30vw;
 }
 
-.nomealbum {
-    font-family: 'Raleway', sans-serif;
-    margin: 10px;
-}
 
 .imgs2 {
     width: 200px;
 }
 
-.albuns {
-    display: inline-block;
-    border: none;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 1em;
-    color: black;
-    text-decoration: none
-}
 
-.albuns:hover {
-    background-color: whitesmoke;
-    color: #BC9077
-}
 
-.youtube {
-    width:424;
-    height: 238;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
-.poster {
-    width: auto;
-    height: 200px;
-    margin-bottom: 20px;
-    border: solid;
-    border-color: #BC9077;
-}
-
-.poster:hover {
-    border-color: whitesmoke;
-}
-
-.posterh {
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
-    border: solid;
-    border-color: #BC9077;
-}
-
-.posterh:hover {
-    border-color: whitesmoke;
-}
 
 .icone {
-    margin: 20px;
-    color: #BC9077;
+    margin: 0px;
+    color: whitesmoke;
     text-decoration: none;
     font-size: 2em;
 }
