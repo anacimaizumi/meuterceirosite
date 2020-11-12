@@ -1,0 +1,277 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.texto {
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecario {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    list-style-type: none;
+    background-color: whitesmoke;
+    display: block;
+    text-align: initial;
+}
+
+.cabecario ul {
+    position: fixed;
+    display: inline-block;
+    background-color:whitesmoke;
+    width: 100vw;    
+    text-align: left;
+}
+
+.cabecario li {
+    float: left;
+}
+
+#inicio {
+    margin-top: 55px;
+    max-width: 100%;
+    height: auto;
+}
+
+.c1 {
+    float: left;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.c1:hover {
+    color: #BC9077;
+}
+
+.c2 {
+    float: left;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.c2:hover {
+    color: #BC9077;
+}
+
+.c3 {
+    float: left;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.c3:hover {
+    color: #BC9077;
+}
+
+.c4 {
+    float: left;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.c4:hover {
+    color: #BC9077;
+}
+
+.subtitulo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.subtitulo p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1,5vw;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.caixa1 {
+    float: left;
+    width: 8.333%;
+    background-color: #F75940;
+    height: 40%;
+} 
+
+.caixa2 {
+    float: left;
+    width: 16.666%;
+    background-color: rgb(221, 153, 114);
+    height: 50%;
+}
+
+.caixa3 {
+    float: left;
+    width: 25%;
+    background-color: rgb(221, 187, 114);
+    height: 50%;
+}
+
+.caixa4 {
+    float: left;
+    width: 33.333%;
+    background-color: rgb(221, 210, 114);
+    height: 5%;
+}
+
+.caixa4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caixa5 {
+    float: left;
+    width: 41.666%;
+    background-color: rgb(205, 221, 114);
+    height: 50%;
+}
+.caixa6 {
+    float: left;
+    width: 50%;
+    
+    height: 15%;
+}
+
+.caixa6 h2 {
+    background-color: #C7828A;
+    text-align: center;
+}
+
+.caixa6 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    margin: 0px;
+    font-weight: 700;
+    background-color: #DE85BC;
+    text-align: center;
+}
+
+
+.caixa7 {
+    float: left;
+    width: 58.333%;
+    background-color: rgb(144, 221, 114);
+    height: 50%;
+}
+.caixa8 { 
+    float: left;
+    width: 66.666%;
+    background-color: rgb(114, 221, 137);
+    height: 50%;
+}
+
+.caixa9 {
+    float: left;
+    width: 75%;
+    background-color: rgb(114, 221, 194);
+    height: 50%;
+}
+
+.caixa10 {
+    float: left;
+    width: 83.333%;
+    background-color: rgb(114, 178, 221);
+    height: 50%;
+}
+
+.caixa11 {
+    float: left;
+    width: 91.666%;
+    background-color: rgb(169, 114, 221);
+    height: 50%;
+}
+.caixa12 {
+    float: left;
+    width: 100%;
+    background-color: rgb(212, 114, 221);
+    height: 50%;
+}
+
+
+.ouca {
+    border-top: solid;
+    border-width: thin;
+    border-color: #BC9077;
+}
+
+.paragrafof {
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.nomealbum {
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+}
+
+.imgs2 {
+    width: 200px;
+}
+
+.albuns {
+    display: inline-block;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    color: black;
+    text-decoration: none
+}
+
+.albuns:hover {
+    background-color: whitesmoke;
+    color: #BC9077
+}
+
+.youtube {
+    width:424;
+    height: 238;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.poster {
+    width: auto;
+    height: 200px;
+    margin-bottom: 20px;
+    border: solid;
+    border-color: #BC9077;
+}
+
+.poster:hover {
+    border-color: whitesmoke;
+}
+
+.posterh {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border: solid;
+    border-color: #BC9077;
+}
+
+.posterh:hover {
+    border-color: whitesmoke;
+}
+
+.icone {
+    margin: 20px;
+    color: #BC9077;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.icone:hover {
+    color: black;
+}
