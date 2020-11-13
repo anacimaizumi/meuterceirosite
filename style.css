@@ -1,11 +1,7 @@
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
 .cabecario {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    list-style-type: none;
+    c
     background-color: rgb(253, 247, 153);
     display: block;
     text-align: initial;
@@ -163,6 +159,28 @@ body {
     background-color: rgb(205, 221, 114);
     height: auto;
 }
+
+.caixa5 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    display: block;
+    text-align: initial;
+    font-size: 1.2vw;
+    display: inline-block; 
+    margin: 10px;
+}
+
+.caixa5 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    display: block;
+    font-size: 1.2vw;
+    display: inline-block; 
+    margin: 0px;
+}
+
 .caixa6 {
     float: left;
     width: 50%;
@@ -291,9 +309,10 @@ body {
 
 .textofinal {
     font-family: 'Raleway', sans-serif;
-    margin: 5px;
+    margin: 1vw;
     font-weight: 400;
     font-size: 1vw;
+    margin-right: 20vw;
 }
 
 .sabor {
@@ -316,17 +335,46 @@ img {
     border-radius: 10px;
 }
 
-.clearfix {
-    overflow: auto;
-  }
+.rodape {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    display: block;
+    text-align: initial;
+    font-size: 1.2vw;
+    display: inline-block; 
+    text-align: left;
+    margin: 10px;
+}
+
+.rodape li {
+    margin-top: 5px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: black;
+}
+
+.rodape a:hover {
+    color: rgb(212, 114, 221);
+}
 
 .icone {
-    margin: 0px;
-    color: whitesmoke;
+    margin: 5px;
+    color:black;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+.caixa5 li {
+    list-style-type: none;
 }
 
 .icone:hover {
-    color: black;
+    color: rgb(212, 114, 221);
 }
+
+.clearfix {
+    overflow: auto;
+  }
